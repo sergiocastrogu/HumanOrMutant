@@ -1,0 +1,449 @@
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Application\ApplicationServiceRegistration.cs
+FN:15,Microsoft.Extensions.DependencyInjection.IServiceCollection HumanOrMutant.Application.ApplicationServiceRegistration::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:9,Microsoft.Extensions.DependencyInjection.IServiceCollection HumanOrMutant.Application.ApplicationServiceRegistration::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:16,9
+DA:17,9
+DA:18,9
+DA:20,9
+DA:21,9
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Application\Services\HumanService.cs
+FN:19,System.Boolean HumanOrMutant.Application.Services.HumanService::isMutant(HumanOrMutant.Domain.Entities.DnaSecuenceEntity)
+FNDA:8,System.Boolean HumanOrMutant.Application.Services.HumanService::isMutant(HumanOrMutant.Domain.Entities.DnaSecuenceEntity)
+DA:20,8
+DA:22,8
+DA:24,8
+DA:27,9
+DA:30,8
+DA:34,6
+DA:37,6
+DA:38,1
+DA:39,1
+DA:44,5
+DA:45,5
+DA:46,5
+DA:49,5
+DA:50,1
+DA:51,1
+DA:52,1
+DA:55,5
+DA:56,5
+DA:57,8
+BRDA:27,18,0,1
+BRDA:27,18,1,7
+BRDA:30,39,0,1
+BRDA:30,39,1,6
+BRDA:37,82,0,1
+BRDA:37,82,1,5
+BRDA:49,131,0,1
+BRDA:49,131,1,5
+FN:59,System.Int32 HumanOrMutant.Application.Services.HumanService::saveHumanDna(System.String[],System.Boolean)
+FNDA:5,System.Int32 HumanOrMutant.Application.Services.HumanService::saveHumanDna(System.String[],System.Boolean)
+DA:60,5
+DA:61,5
+DA:62,5
+DA:63,5
+DA:64,5
+DA:65,5
+DA:66,5
+DA:67,5
+FN:69,System.Int32 HumanOrMutant.Application.Services.HumanService::diagonalValidationDna(System.String[])
+FNDA:5,System.Int32 HumanOrMutant.Application.Services.HumanService::diagonalValidationDna(System.String[])
+DA:70,5
+DA:71,5
+DA:74,40
+DA:75,15
+DA:77,120
+DA:78,45
+DA:81,45
+DA:82,45
+DA:83,45
+DA:84,3
+DA:85,3
+DA:86,3
+DA:87,45
+DA:88,15
+DA:89,5
+DA:90,5
+BRDA:74,139,1,15
+BRDA:77,120,1,45
+BRDA:81,35,0,19
+BRDA:81,59,0,10
+BRDA:81,35,1,35
+BRDA:81,59,1,35
+BRDA:81,90,0,3
+BRDA:81,90,1,45
+BRDA:77,120,0,15
+BRDA:74,139,0,5
+FN:92,System.Int32 HumanOrMutant.Application.Services.HumanService::horizontalValidationDna(System.String[])
+FNDA:5,System.Int32 HumanOrMutant.Application.Services.HumanService::horizontalValidationDna(System.String[])
+DA:93,5
+DA:94,5
+DA:96,70
+DA:97,30
+DA:99,226
+DA:100,86
+DA:102,86
+DA:103,86
+DA:104,86
+DA:105,3
+DA:106,3
+DA:107,3
+DA:109,83
+DA:110,30
+DA:111,5
+DA:112,5
+BRDA:96,132,1,30
+BRDA:99,115,1,86
+BRDA:102,33,0,25
+BRDA:102,55,0,4
+BRDA:102,33,1,82
+BRDA:102,55,1,82
+BRDA:102,84,0,3
+BRDA:102,84,1,83
+BRDA:99,115,0,30
+BRDA:96,132,0,5
+FN:114,System.Boolean HumanOrMutant.Application.Services.HumanService::validateOtherCaracters(System.String[])
+FNDA:7,System.Boolean HumanOrMutant.Application.Services.HumanService::validateOtherCaracters(System.String[])
+DA:115,7
+DA:116,7
+DA:118,7
+DA:121,94
+DA:122,37
+DA:124,546
+DA:125,218
+DA:127,218
+DA:128,1
+DA:129,1
+DA:130,217
+DA:132,217
+DA:133,36
+DA:134,6
+DA:135,7
+BRDA:121,110,1,37
+BRDA:124,99,1,218
+BRDA:127,74,0,1
+BRDA:127,74,1,217
+BRDA:124,99,0,36
+BRDA:121,110,0,6
+FN:137,System.Int32 HumanOrMutant.Application.Services.HumanService::verticalValidationDna(System.String[])
+FNDA:5,System.Int32 HumanOrMutant.Application.Services.HumanService::verticalValidationDna(System.String[])
+DA:138,5
+DA:139,5
+DA:141,70
+DA:142,30
+DA:144,218
+DA:145,83
+DA:147,83
+DA:148,83
+DA:149,83
+DA:150,4
+DA:151,4
+DA:152,4
+DA:154,79
+DA:155,30
+DA:156,5
+DA:157,5
+BRDA:141,137,1,30
+BRDA:144,115,1,83
+BRDA:147,33,0,19
+BRDA:147,55,0,6
+BRDA:147,33,1,77
+BRDA:147,55,1,77
+BRDA:147,84,0,4
+BRDA:147,84,1,79
+BRDA:144,115,0,30
+BRDA:141,137,0,5
+FN:13,System.Void HumanOrMutant.Application.Services.HumanService::.ctor(HumanOrMutant.Persistence.Contracts.IHumanDnaRepository)
+FNDA:9,System.Void HumanOrMutant.Application.Services.HumanService::.ctor(HumanOrMutant.Persistence.Contracts.IHumanDnaRepository)
+DA:14,9
+DA:15,9
+DA:16,9
+DA:17,9
+LF:94
+LH:94
+BRF:44
+BRH:44
+FNF:7
+FNH:7
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Application\Services\StatsService.cs
+FN:14,HumanOrMutant.Domain.Dtos.StatisticsDto HumanOrMutant.Application.Services.StatsService::getStats()
+FNDA:1,HumanOrMutant.Domain.Dtos.StatisticsDto HumanOrMutant.Application.Services.StatsService::getStats()
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+FN:9,System.Void HumanOrMutant.Application.Services.StatsService::.ctor(HumanOrMutant.Persistence.Contracts.IHumanDnaRepository)
+FNDA:9,System.Void HumanOrMutant.Application.Services.StatsService::.ctor(HumanOrMutant.Persistence.Contracts.IHumanDnaRepository)
+DA:10,9
+DA:11,9
+DA:12,9
+DA:13,9
+LF:11
+LH:11
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Domain\Entities\DnaSecuenceEntity.cs
+FN:10,System.String[] HumanOrMutant.Domain.Entities.DnaSecuenceEntity::get_dna()
+FNDA:24,System.String[] HumanOrMutant.Domain.Entities.DnaSecuenceEntity::get_dna()
+DA:11,24
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Domain\Entities\HumanDnaEntity.cs
+FN:13,System.String HumanOrMutant.Domain.Entities.HumanDnaEntity::get_DnaSecuence()
+FNDA:21,System.String HumanOrMutant.Domain.Entities.HumanDnaEntity::get_DnaSecuence()
+DA:14,21
+FN:17,System.Boolean HumanOrMutant.Domain.Entities.HumanDnaEntity::get_IsMutant()
+FNDA:18,System.Boolean HumanOrMutant.Domain.Entities.HumanDnaEntity::get_IsMutant()
+DA:18,18
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Core\HumanOrMutant.Domain\Dtos\StatisticsDto.cs
+FN:10,System.Int32 HumanOrMutant.Domain.Dtos.StatisticsDto::get_count_mutant_dna()
+FNDA:3,System.Int32 HumanOrMutant.Domain.Dtos.StatisticsDto::get_count_mutant_dna()
+DA:11,3
+FN:11,System.Int32 HumanOrMutant.Domain.Dtos.StatisticsDto::get_count_human_dna()
+FNDA:3,System.Int32 HumanOrMutant.Domain.Dtos.StatisticsDto::get_count_human_dna()
+DA:12,3
+FN:12,System.Single HumanOrMutant.Domain.Dtos.StatisticsDto::get_ratio()
+FNDA:3,System.Single HumanOrMutant.Domain.Dtos.StatisticsDto::get_ratio()
+DA:13,3
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Infraestructure\HumanOrMutant.Persistence\PersistenceServiceRegistration.cs
+FN:14,Microsoft.Extensions.DependencyInjection.IServiceCollection HumanOrMutant.Persistence.PersistenceServiceRegistration::AddPersistenceRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:9,Microsoft.Extensions.DependencyInjection.IServiceCollection HumanOrMutant.Persistence.PersistenceServiceRegistration::AddPersistenceRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:15,9
+DA:16,9
+DA:18,9
+DA:19,9
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Infraestructure\HumanOrMutant.Persistence\Repositories\HumanDnaRepository.cs
+FN:21,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getTotalRegisters()
+FNDA:1,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getTotalRegisters()
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+FN:28,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getMutantRegisters()
+FNDA:1,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getMutantRegisters()
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,3
+DA:33,1
+FN:35,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::setHumanDna(HumanOrMutant.Domain.Entities.HumanDnaEntity)
+FNDA:5,System.Int32 HumanOrMutant.Persistence.Repositories.HumanDnaRepository::setHumanDna(HumanOrMutant.Domain.Entities.HumanDnaEntity)
+DA:36,5
+DA:38,5
+DA:39,5
+DA:40,5
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,5
+FN:48,HumanOrMutant.Domain.Entities.HumanDnaEntity HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getHumanDnaEntity(System.String)
+FNDA:6,HumanOrMutant.Domain.Entities.HumanDnaEntity HumanOrMutant.Persistence.Repositories.HumanDnaRepository::getHumanDnaEntity(System.String)
+DA:49,6
+DA:50,6
+DA:51,6
+DA:52,5
+DA:53,5
+DA:55,1
+DA:56,6
+BRDA:51,34,0,5
+BRDA:51,34,1,1
+FN:12,System.Void HumanOrMutant.Persistence.Repositories.HumanDnaRepository::.ctor()
+FNDA:18,System.Void HumanOrMutant.Persistence.Repositories.HumanDnaRepository::.ctor()
+DA:13,18
+DA:14,18
+DA:15,18
+DA:16,18
+DA:17,18
+DA:19,18
+DA:20,18
+LF:32
+LH:29
+BRF:2
+BRH:2
+FNF:5
+FNH:5
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Serverless\Mutant\LambdaEntryPoint.cs
+FN:29,System.Void Mutant.LambdaEntryPoint::Init(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+FNDA:9,System.Void Mutant.LambdaEntryPoint::Init(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+DA:30,9
+DA:31,9
+DA:32,9
+DA:33,9
+FN:42,System.Void Mutant.LambdaEntryPoint::Init(Microsoft.Extensions.Hosting.IHostBuilder)
+FNDA:9,System.Void Mutant.LambdaEntryPoint::Init(Microsoft.Extensions.Hosting.IHostBuilder)
+DA:43,9
+DA:44,9
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Serverless\Mutant\LocalEntryPoint.cs
+FN:8,System.Void Mutant.LocalEntryPoint::Main(System.String[])
+FNDA:0,System.Void Mutant.LocalEntryPoint::Main(System.String[])
+DA:9,0
+DA:10,0
+DA:11,0
+FN:13,Microsoft.Extensions.Hosting.IHostBuilder Mutant.LocalEntryPoint::CreateHostBuilder(System.String[])
+FNDA:0,Microsoft.Extensions.Hosting.IHostBuilder Mutant.LocalEntryPoint::CreateHostBuilder(System.String[])
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Serverless\Mutant\Startup.cs
+FN:15,Microsoft.Extensions.Configuration.IConfiguration Mutant.Startup::get_Configuration()
+FNDA:0,Microsoft.Extensions.Configuration.IConfiguration Mutant.Startup::get_Configuration()
+DA:16,0
+FN:19,System.Void Mutant.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:9,System.Void Mutant.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:20,9
+DA:21,9
+DA:22,9
+DA:23,9
+DA:24,9
+DA:25,9
+FN:27,System.Void Mutant.Startup::AddSwager(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:9,System.Void Mutant.Startup::AddSwager(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:28,9
+DA:29,9
+DA:30,9
+DA:31,9
+DA:32,9
+DA:33,9
+DA:34,9
+DA:35,9
+DA:36,9
+DA:37,9
+DA:38,9
+DA:39,9
+DA:40,9
+DA:41,9
+DA:42,9
+DA:43,9
+DA:44,18
+DA:45,9
+FN:48,System.Void Mutant.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+FNDA:9,System.Void Mutant.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+DA:49,9
+DA:50,9
+DA:51,9
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,9
+DA:59,9
+DA:61,9
+DA:63,9
+DA:64,9
+DA:65,9
+DA:66,9
+DA:67,18
+DA:69,9
+DA:70,9
+DA:71,9
+DA:72,9
+DA:73,0
+DA:74,0
+DA:75,9
+DA:76,18
+DA:77,9
+BRDA:51,26,0,0
+BRDA:51,26,1,9
+FN:10,System.Void Mutant.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:9,System.Void Mutant.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+DA:11,9
+DA:12,9
+DA:13,9
+DA:14,9
+LF:53
+LH:46
+BRF:2
+BRH:1
+FNF:5
+FNH:4
+end_of_record
+SF:E:\Proyectos\HumanOrMutant\Serverless\Mutant\Controllers\MutantController.cs
+FN:37,Microsoft.AspNetCore.Mvc.ActionResult Mutant.Controllers.MutantController::Mutant(HumanOrMutant.Domain.Entities.DnaSecuenceEntity)
+FNDA:8,Microsoft.AspNetCore.Mvc.ActionResult Mutant.Controllers.MutantController::Mutant(HumanOrMutant.Domain.Entities.DnaSecuenceEntity)
+DA:38,8
+DA:40,8
+DA:42,8
+DA:43,8
+DA:44,8
+DA:45,8
+DA:46,8
+BRDA:42,22,0,3
+BRDA:42,22,1,5
+FN:56,Microsoft.AspNetCore.Mvc.ActionResult Mutant.Controllers.MutantController::Stats()
+FNDA:1,Microsoft.AspNetCore.Mvc.ActionResult Mutant.Controllers.MutantController::Stats()
+DA:57,1
+DA:58,1
+DA:59,1
+DA:60,1
+FN:19,System.Void Mutant.Controllers.MutantController::.ctor(HumanOrMutant.Application.Interfaces.IHumanService,HumanOrMutant.Application.Interfaces.IStatsService)
+FNDA:9,System.Void Mutant.Controllers.MutantController::.ctor(HumanOrMutant.Application.Interfaces.IHumanService,HumanOrMutant.Application.Interfaces.IStatsService)
+DA:20,9
+DA:21,9
+DA:22,9
+DA:23,9
+DA:24,9
+LF:16
+LH:16
+BRF:2
+BRH:2
+FNF:3
+FNH:3
+end_of_record

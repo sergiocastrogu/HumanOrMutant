@@ -1,0 +1,76 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Is mutant or human API",
+    "contact": {
+      "name": "Sergio castro",
+      "url": "https://github.com/sergiocastrogu/",
+      "email": "secastro06@gmail.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Mutant/mutant": {
+      "post": {
+        "tags": [
+          "Mutant"
+        ],
+        "operationId": "mutant",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DnaSecuenceEntity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DnaSecuenceEntity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DnaSecuenceEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Mutant/stats": {
+      "get": {
+        "tags": [
+          "Mutant"
+        ],
+        "operationId": "stats",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DnaSecuenceEntity": {
+        "type": "object",
+        "properties": {
+          "dna": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
