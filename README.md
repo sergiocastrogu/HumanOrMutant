@@ -100,7 +100,7 @@ La arquitectura del proyecto está basada en clean code en donde se divide de la
         =>Contracts
         =>Repositories
 
-La arquitectura de la infraestructura es una función serverless publicada en una aplicación lambda que implementa una función lambda de aws, conectado a DynamoDB, exponiendo sus apis a través de ApiGateway y con un load balancer.
+La arquitectura de la infraestructura es una función serverless publicada en una aplicación lambda que implementa una función lambda de aws, conectado a DynamoDB, exponiendo sus apis a través de ApiGateway.
 
 Las pruebas unitarias se realizaron en NUnit con una cobertura del 92.3% del código desarrollado.
 https://sergiocastrogu.github.io/HumanOrMutant/index.html
